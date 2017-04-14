@@ -55,7 +55,7 @@ class PounceMiddleware(MiddlewareMixin):
         for i, resource in enumerate(resources):
             if i > 0:
                 header += ','
-            header += '<%s>; rel=preload; as=%s' % resource
+            header += '<%s>; rel=preload; as=%s; nopush' % resource
 
         return header
 
