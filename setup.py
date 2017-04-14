@@ -6,10 +6,10 @@ setup(
     version=__version__,
     author="Jacob Budin",
     author_email='self@jacobbudin.com',
-    description=("Django middleware to enable pushing resources using HTTP2 Link header"),
+    description=("Django middleware for preloading resources using the HTTP Link header"),
     install_requires=[],
     license='BSD',
-    keywords='django http2 performance',
+    keywords='django preload performance',
     url='https://github.com/jacobbudin/django-pounce',
     packages=[
         'pounce',
